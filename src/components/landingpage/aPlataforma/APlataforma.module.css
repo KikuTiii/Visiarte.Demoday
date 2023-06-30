@@ -1,0 +1,136 @@
+.container {
+    height: 170vh;
+    background-image: url(../../../img/fundoLaranja.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    height: 35vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 8vh;
+    color: #fff;
+    padding-bottom: 4%;
+}
+
+.titulo h1 {
+    font-family: poppins-l;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 4vh;
+    line-height: 4vh;
+    color: #fff;
+    text-align: left;
+    gap: 5vw;
+    text-indent: 2vw;
+}
+
+.texto {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.texto text {
+    color: #064550;
+}
+
+.img1,
+.img2,
+.img3 {
+    border-radius: 1vw;
+    width: 60%;
+    height: 80vh;
+    position: absolute;
+    background-color: antiquewhite;
+    background-image: url(../../../img/print.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 2vh -0.1vh rgba(0, 0, 0, 0.541);
+    border: 0.5vh solid rgba(0, 0, 0, 0.267);
+}
+
+.img2 {
+    margin: 1%;
+}
+
+.img3 {
+    margin: 2%;
+}
+
+@media only screen and (max-width:480px) {
+    .container {
+        height: 65vh;
+
+    }
+
+    .conteudo {
+        display: flex;
+    }
+
+    .titulo {
+        height: auto;
+        display: flex;
+        font-size: 2vh;
+        padding-top: 5%;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        display: none;
+    }
+
+    .texto {
+        height: auto;
+        font-size: 2vh;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        .container{
+            height: 140vh;
+        }
+        .titulo {
+            height: auto;
+            display: flex;
+            font-size: 6vh;
+            padding-top: 5%;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .texto {
+            height: auto;
+        }
+
+        .img1
+         {
+            width: 100%;
+            position: relative;
+            height: 50vh;
+        }
+        .img2,.img3{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
+}

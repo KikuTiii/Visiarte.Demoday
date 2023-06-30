@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    padding-top: 7%;
+    margin: 0 auto;
+    justify-content: center;
+    color: #064550;
+    flex-direction: column;
+    width: 95%;
+}
+.SBtit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 5vh;
+}
+.SBtit h1 {
+    font-size: 5vh;
+}
+.subtit {
+    font-size: 5vh;
+    font-family: poppins;
+}
+.laranja {
+    color: #f06024;
+}
+.SBcont {
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%;
+    align-items: center;
+}
+.SBimg {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../../../img/sobrenos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linhaExterna{
+    position: absolute;
+    width: 39vw;
+    height: 50vh;
+    left: 7%;
+    margin-top: 2%;
+    margin-left: -2%;
+    border:  0.8vh solid #f8bb6c;
+}
+.contTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 4vh;
+}
+.titulo p {
+    font-size: 5vh;
+}
+.conteudo {
+    font-size: 3.5vh;
+    font-family: poppins-l;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+.btnAcessar{
+    border-radius: 0.5vh;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 200ms all;
+    z-index: 2;
+    background: rgb(240,96,36);
+    background: radial-gradient(linear, rgba(240,96,36,1) 0%, rgba(248,187,108,1) 100%);
+    font-size: 3vh;
+    margin-top: 3%;
+    box-shadow: 0 0 1vh 0vh rgba(240, 97, 36, 0.836);
+    padding: 2vh;
+}
+.btnAcessar:hover{
+        cursor: pointer;
+        color: #fff;
+}
+@media only screen and (max-width:480px) {
+    .SBimg{
+        display: none;
+        
+    }
+    .linhaExterna{
+        display: none;
+    }
+    .container{
+        height: auto;
+        padding: 15% 0 15% 0;
+    }
+    .SBcont{
+        height: auto;
+        display: flex;
+    }
+    .titulo{
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        .SBcont{
+            display: flex;
+            flex-direction: column;
+        }
+        .SBimg{
+            background-size: contain;
+            
+        }
+        .linhaExterna{
+            display: none;
+        }
+        .container{
+            height: auto;
+            padding: 15% 0 15% 0;
+        }
+        .SBcont{
+            height: auto;
+            display: flex;
+            font-size: 2vh;
+        }
+        .titulo{
+            font-size: 3vh;
+        }
+        .conteudo{
+            width: 100%;
+            font-size: 3vh;
+        }
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        
+}
+}

@@ -1,0 +1,102 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 5vh;
+    color: #064550;
+    margin-bottom: 4%;
+}
+
+.titulo p {
+    font-family: poppins-l;
+}
+
+.titulo text {
+    color: #f06024;
+}
+
+.fotos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.imgDireita,
+.imgEsquerda {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgDireita {
+    align-items: flex-start;
+    border-right: 0.5vw solid #f8bb6c;
+}
+
+.imgEsquerda {
+    align-items: flex-end;
+}
+
+.imgCima,
+.imgBaixo {
+    width: 60%;
+    height: 85%;
+    background-color: #064550;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.imgCima {
+    background-image: url(../../../img/imgCima.png);
+}
+
+.imgBaixo {
+    background-image: url(../../../img/imgBaixo.png);
+}
+
+@media only screen and (max-width:480px) {
+    .container {
+        height: 50vh;
+    }
+
+    .titulo {
+        font-size: 3vh;
+    }
+
+    .imgCima,
+    .imgBaixo {
+        width: 80%;
+        height: 85%;
+
+    }
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+
+        .imgCima,
+        .imgBaixo {
+            width: 80%;
+            height: 85%;
+
+        }
+        .container{
+            padding-bottom: 10%;
+        }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
+}

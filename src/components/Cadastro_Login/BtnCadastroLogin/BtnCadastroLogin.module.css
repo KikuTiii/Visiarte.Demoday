@@ -1,0 +1,21 @@
+.Acessar{
+    text-decoration: none;
+    color:#222;
+    font-size: 4.5vh;
+    border: 2px solid #49B3BC;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Acessar span{
+    font-size: 5vh;
+    margin-left: 10px;
+}
+
+.Acessar:hover{
+    background-color: #49B3BC;
+    color: #FFF;
+    transition: 200ms all;
+}

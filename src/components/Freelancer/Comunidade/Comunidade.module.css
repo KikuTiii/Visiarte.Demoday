@@ -1,0 +1,139 @@
+.container{
+   height: 80vh;
+   background-color: #14101F;
+   color: #fff;
+}
+.innerContainer{
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0 25% 0;
+    width: 100%;
+}
+.conteudo{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.esquerda ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.esquerda ul li{
+    display: flex;
+}
+
+.simbolos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#70DBE5;
+    font-size: 4vh;
+    border: solid 1px #70DBE5;
+    width: 10%;
+    border-radius: 50%;
+    margin-right:2vw ;
+}
+.direita{
+    
+}
+.box1,.box2,.box3{
+    position: absolute;
+    width: 15%;
+    padding: 1%;
+    border-radius: 1.5vh;
+    font-size: 1vw;
+    background-color: #4594ccc4;
+    backdrop-filter: blur(2rem);
+    margin-top: 2%;
+    left: 55vw;
+    z-index: 4;
+}
+.box2{
+    margin-top: 25%;
+    left: 40vw;
+}
+.box3{
+    margin-top: 20%;
+    left: 79vw;
+}
+.foto1{
+    position: absolute;
+    height: 50vh;
+    width: 25vw;
+    background-image: url(../../../img/imageComentada.png);
+    margin-top: 10%;
+    left:55vw;
+    box-shadow: 0 0 7vw 1px #4594cc65;
+    z-index: 2;
+}
+.foto2,.foto3,.foto4{
+    background-image: url(../../../img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height:30vh;
+    width: 15vw;
+    margin-top: 24%;
+    left: 50vw;
+    border-radius: 1vw;
+    z-index: 3;
+}
+.foto3{
+    margin-top: 1%;
+    left: 42vw;
+    background-image: url(../../../img/img5.jpg);
+    z-index: 0;
+}
+.foto4{
+    margin-top: 22%;
+    left: 75vw;
+    background-image: url(../../../img/imgCima.png)
+}
+@media screen and (max-width:1444px){
+    .box1,.box2,.box3{
+        margin-top: 3%;
+        left: 65vw;
+        z-index: 4;
+    }
+    .box2{
+        margin-top: 35%;
+        left: 45vw;
+    }
+    .box3{
+        margin-top: 20%;
+        left: 84vw;
+    }
+    .foto1{
+        margin-top: 10%;
+        left:60vw;
+    }
+    .foto2,.foto3,.foto4{
+        margin-top: 30%;
+        left:55vw;
+
+    }
+    .foto3{
+        margin-top: 2%;
+        left: 52vw;
+    }
+    .foto4{
+        margin-top: 22%;
+        left:80vw;
+    }
+    
+}

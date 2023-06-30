@@ -1,0 +1,70 @@
+.container{
+    padding-bottom: 5%;
+}
+.titulo{
+    width: 90%;
+    text-align: center;
+    font-size:6vh;
+    color:#49B3BC;
+    margin: 0 auto;
+    padding: 2%;
+    font-family: poppins-l;
+}
+.innerContainer{
+    padding: 1%;
+}
+.carousel{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    color: white;
+    gap: 0.2vw;
+
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.item{
+    min-height: 20vh;
+    width: 30%;
+    padding: 1vh;
+    flex: none;
+
+}
+.img{
+    height: 70vh;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.categoria{
+    text-align: center;
+    font-size: 4vh;
+    margin-top: -15%;
+}
+.botoes{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+.botoes button{
+    font-size: 5vh;
+    cursor: pointer;
+    background-color: #F1ECFC;
+}
+
+@media screen and (max-width:1444px){
+    .img{
+        height: 50vh;
+    }
+}

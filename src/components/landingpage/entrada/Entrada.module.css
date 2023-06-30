@@ -1,0 +1,151 @@
+.container {
+    height: 85vh;
+    background-image: url(../../../img/beckground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 1vh  5vh 0 rgba(0, 0, 0, 0.253);
+}
+.container svg {
+    width: 5vw;
+    height: 5vh;
+}
+.container2 {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 90vh;
+    background-color: #fff;
+    top: 5vh;
+    background-image: url(../../../img/beckground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0  5vh 0 rgba(0, 0, 0, 0.322);
+}
+.textBox {
+    display: flex;
+    flex-direction: column;
+    top:40vh;
+    width: 80%;
+    padding: 0 0 0 10%;
+    position: absolute;
+    z-index: 2;
+}
+.textBox h1 {
+    font-size: 10vh;
+    font-family: nasa;
+    display: flex;
+    align-items: center;
+    background: rgb(240,96,36);
+    background: radial-gradient(circle, rgba(240,96,36,1) 0%, rgba(248,187,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:200% 200%;
+    animation: colors 10s ease infinite;    
+}
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.textBox svg{
+    width: 15vh;
+    height:15vh;
+}
+
+.textBox h3 {
+    font-size: 4vh;
+    color: #fff;
+    font-family: poppins-l;
+}
+.btnAcessar{
+    border-radius: 0.5vh;
+    width: 25%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 200ms all;
+    z-index: 2;
+    background: rgb(240,96,36);
+    background: radial-gradient(linear, rgba(240,96,36,1) 0%, rgba(248,187,108,1) 100%);
+    font-size: 3vh;
+    margin-top: 3%;
+    box-shadow: 0 0 1vh 0vh rgba(240, 97, 36, 0.836);
+    
+}
+.btnAcessar:hover{
+        cursor: pointer;
+        color: #fff;
+}
+.linhaExterna {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 1.5%;
+    background-color: transparent;
+    border:  0.5vh solid #70DBE5;
+    z-index: 1;
+}
+@media only screen and (max-width:480px) {
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .linhaExterna{
+        display: none;
+    }
+   .textBox{
+    width: 100%;
+   }
+   .textBox h1{
+    font-size: 6vh;
+   }
+   .btnAcessar{
+    width: 90%;
+   }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        .container{
+            width: 100%;
+        }
+        .container2{
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+        .linhaExterna{
+            display: none;
+        }
+        .btnAcessar{
+            width: 90%;
+        }
+        .textBox{
+            left: 10%;
+        }
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        .btnAcessar{
+            width: 60%;
+        }
+        
+}
+}

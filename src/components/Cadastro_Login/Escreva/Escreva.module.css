@@ -1,0 +1,20 @@
+.Iniciando{
+    width: 90%;
+    height: auto;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Iniciando input{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1.6rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    color: #333;
+    width:90%;
+    border: 1px solid #F06024;
+    border-radius: 5px;
+}

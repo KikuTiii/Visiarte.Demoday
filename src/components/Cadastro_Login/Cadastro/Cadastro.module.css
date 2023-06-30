@@ -1,0 +1,226 @@
+.container {
+    background-image: url(../../../img/FundoLogin.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.innerContainer {
+    display: flex;
+    padding: 2%;
+
+}
+
+.logo {
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.logotipo {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-size: 7vh;
+    font-family: nasa;
+}
+
+.logo svg {
+    width: 8vw;
+    height: 8vh;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    flex-direction: column;
+    width: 50%;
+}
+
+.crie {
+    color: #fff;
+    font-size: 10vh;
+    width: 60%;
+    line-height: 8vw;
+}
+
+.direita {
+    background-color: rgba(240, 248, 255, 0);
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.controlador {
+    width: 80%;
+    height: 1.5vh;
+    background-color: rgb(238, 238, 238);
+    margin: 0 0 1vh 0;
+}
+
+.controlador div {
+    background-color: #49B3BC;
+    height: 100%;
+}
+
+.boxCadastro {
+    background-color: rgb(238, 238, 238);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 4vh;
+    padding: 15% 0 0 0;
+    height: 10vh;
+    margin: 0 auto;
+    font-weight: 1000;
+}
+
+.comp {
+    margin-top: 5%;
+    min-height: 53vh;
+    max-height: 55vh;
+}
+
+.contFixo {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+}
+
+.btn button {
+    border: 0.3vh solid #49B3BC;
+    font-size: 3vh;
+    padding: 2.5%;
+    border-radius: 0.5vh;
+    color: rgb(75, 75, 75);
+    transition: all 200ms;
+    text-transform: uppercase;
+}
+
+.btn button:hover {
+    background-color: #49B3BC;
+    color: #FFF;
+    transition: 200ms all;
+    cursor: pointer;
+}
+
+.aviso {
+    font-size: 2.5vh;
+    color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    position: relative;
+}
+.textAviso{
+    transition: 200ms all ;
+    border-bottom: 0.4vh solid #ffffff00;
+}
+.textAviso:hover{
+    color: #000;
+    border-bottom: 0.4vh solid #F06024;
+    
+}
+
+@media only screen and (max-width:480px) {
+    .container{
+        height: auto;
+    }
+    .innerContainer {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logotipo {
+        font-size: 3vh;
+    }
+    .centroCrie{
+        display: flex;
+        justify-content: center;
+    }
+    .esquerda {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        height: auto;
+        justify-content: flex-end;
+    }
+    .crie {
+        line-height: auto;
+        font-size: 3vh;
+        text-align: center;
+    }
+    .direita{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        .container{
+            height: auto;
+        }
+        .innerContainer {
+            flex-direction: column;
+        }
+    
+        .logo {
+            justify-content: center;
+        }
+    
+        .logotipo {
+            font-size: 3vh;
+        }
+        .centroCrie{
+            display: flex;
+            justify-content: center;
+        }
+        .esquerda {
+            height: 20vh;
+            width: 100%;
+            display: flex;
+            height: auto;
+            justify-content: flex-end;
+        }
+        .crie {
+            line-height: auto;
+            font-size: 3vh;
+            text-align: center;
+        }
+        .direita{
+            width: 100%;
+        }
+        .titulo{
+            font-size: 5vh;
+        }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
+}

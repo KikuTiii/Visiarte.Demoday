@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#064550;
+    font-size: 4vh;
+
+}
+
+.comentarios{
+    display:flex;
+    padding: 5%;
+    gap: 1%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.box{
+    box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.349);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    background-color: #fff;
+    
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+.foto1,.foto2,.foto3{
+    background-color: #064550;
+    width: 80%;
+    height: 25vh;
+    clip-path: circle();
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    
+}
+
+.foto1{
+    background-image: url('https://images.pexels.com/photos/6076455/pexels-photo-6076455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+}
+.foto2{
+    background-image: url('https://images.pexels.com/photos/14134412/pexels-photo-14134412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+.foto3{
+    background-image: url('https://images.pexels.com/photos/14506446/pexels-photo-14506446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.top text{
+    font-size: 3vh;
+    color: #064550;
+    padding: 1% 0 1% 0;
+}
+.corpo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8vh;
+    height: 30vh;
+}
+@media only screen and (max-width:480px) {
+   .titulo{
+    font-size: 2vh;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .comentarios{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+   }
+    .box{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        .titulo{
+            font-size: 5vh;
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+           }
+           .comentarios{
+            display: flex;
+            flex-direction: column;
+            gap: 6vh;
+            width: 70%;
+           }
+            .box{
+                width: 100%;
+            }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
+}
