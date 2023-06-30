@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "name": "Cantores",
+    "image": "https://images.pexels.com/photos/6892900/pexels-photo-6892900.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+{
+    "id": "2",
+    "name": "Pintores",
+    "image": "https://images.pexels.com/photos/3817572/pexels-photo-3817572.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+{
+    "id": "3",
+    "name": "Dançarinos",
+    "image": "https://images.pexels.com/photos/1701194/pexels-photo-1701194.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+{
+    "id": "4",
+    "name": "Escultores",
+    "image": "https://images.pexels.com/photos/6598664/pexels-photo-6598664.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+	{
+    "id": "5",
+    "name": "Grafiteiros",
+    "image": "https://images.pexels.com/photos/1507856/pexels-photo-1507856.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+{
+    "id": "6",
+    "name": "Músicos",
+    "image": "https://images.pexels.com/photos/13200643/pexels-photo-13200643.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }
+
+]

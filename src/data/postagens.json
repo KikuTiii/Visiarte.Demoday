@@ -1,0 +1,154 @@
+{
+    "postagens": [
+        {
+            "id_postagem": 1,
+            "name": "Isabelle Pereira Goncalves",
+            "username": "HollieJosie",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/3894557/pexels-photo-3894557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit est in sapien venenatis interdum. Donec nec interdum diam, dapibus sollicitudin enim. ≧◉◡◉≦",
+                "foto_postagem": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 2,
+            "name": "Larissa Barbosa Cardoso",
+            "username": "TheDaffyVengeful",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/4441997/pexels-photo-4441997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "Nullam mollis iaculis odio, a pellentesque magna. Donec in tortor eget enim lacinia feugiat vel mattis justo. Maecenas commodo pharetra ligula, nec accumsan nisi condimentum et. Donec venenatis nibh vitae nisl congue, eget tempor odio faucibus. Maecenas in nunc est. Sed ut magna lorem. (👍≖‿‿≖)👍 👍(≖‿‿≖👍)",
+                "foto_postagem": "https://images.pexels.com/photos/1460037/pexels-photo-1460037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 3,
+            "name": "Kae Lucas",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/305197/pexels-photo-305197.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 4,
+            "name": "Kae Lucas",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/163811/street-art-shipping-container-freight-highway-163811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 5,
+            "name": "Kae Lucas",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/1137752/pexels-photo-1137752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 6,
+            "name": "mochileiro",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/11377006/pexels-photo-11377006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        }
+    ]
+}

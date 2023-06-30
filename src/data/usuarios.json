@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Bianca Martins",
+    "image": "https://images.pexels.com/photos/1365168/pexels-photo-1365168.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "comentario" : "Farei quadros com a ideia de composição que você quiser",
+    "pontuacao" : "4.9 (1820)"
+    },
+{
+  "id": "2",
+  "name": "José Ferreira",
+  "image": "https://images.pexels.com/photos/3778848/pexels-photo-3778848.jpeg?auto=compress&cs=tinysrgb&w=400",
+  "comentario" : "Desenharei qualquer tipo de arte que você escolher!",
+  "pontuacao" : "5.0 (1220)"
+  },
+{
+  "id": "3",
+  "name": "Bruno Lorenzo",
+  "image": "https://images.pexels.com/photos/6892887/pexels-photo-6892887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "comentario" : "Posso fazer um cover de qualquer música! ",
+  "pontuacao" : "4.7 (2220)"
+  },
+{
+  "id": "4",
+  "name": "Kaue Souza",
+  "image": "https://images.pexels.com/photos/3355358/pexels-photo-3355358.jpeg?auto=compress&cs=tinysrgb&w=400",
+  "comentario" : "Sou um compositor que ama todos os gêneros de música",
+  "pontuacao" : "3.9 (1998)"
+  },
+	{
+    "id": "5",
+    "name": "Paulo Trevos",
+    "image": "https://images.pexels.com/photos/7125558/pexels-photo-7125558.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "comentario" : "Amo Jardinagem, posso te dar várias dicas de como cuidar de seus amores",
+    "pontuacao" : "4.9 (1820)"
+    },
+    {
+      "id": "6",
+      "name": "Amanda Nunes",
+      "image": "https://images.pexels.com/photos/5102571/pexels-photo-5102571.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "comentario" : "Dançarina desde criança, hoje em dia completo coreografias e ajudo em que precisar",
+      "pontuacao" : "4.3 (1129)"
+      },
+      {
+        "id": "7",
+        "name": "Luiza Sonza",
+        "image": "https://images.pexels.com/photos/10570758/pexels-photo-10570758.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "comentario" : "o cuidar de seus amores",
+        "pontuacao" : "4.9 (1820)"
+        },
+        {
+          "id": "8",
+          "name": "Pedro Marreco",
+          "image": "https://images.pexels.com/photos/2420352/pexels-photo-2420352.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "comentario" : "o cuidar de seus amores",
+          "pontuacao" : "4.9 (1820)"
+          },
+          {
+            "id": "9",
+            "name": "Felipe Dominique",
+            "image": "https://images.pexels.com/photos/6037571/pexels-photo-6037571.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "comentario" : "o cuidar de seus amores",
+            "pontuacao" : "4.9 (1820)"
+            }
+]

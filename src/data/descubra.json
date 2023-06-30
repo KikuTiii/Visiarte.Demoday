@@ -1,0 +1,130 @@
+{
+    "descubra_perfis": [
+        {
+            "id_usuario": 1,
+            "foto_perfil": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Kae Lucas",
+            "username": "mochileiro",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sem dui, tincidunt a massa id, tincidunt aliquam sapien. Etiam vitae tellus quis tellus tincidunt porttitor vitae eu orci. Sed eu orci leo. Fusce dignissim nibh auctor, consequat massa quis, rhoncus purus. Quisque maximus aliquam tristique. Curabitur lobortis in dolor quis maximus. Nam pellentesque urna id neque mollis fringilla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sem dui, tincidunt a massa id, tincidunt aliquam sapien. Etiam vitae tellus quis tellus tincidunt porttitor vitae eu orci. Sed eu orci leo. Fusce dignissim nibh auctor, consequat massa quis, rhoncus purus. Quisque maximus aliquam tristique. Curabitur lobortis in dolor quis maximus. Nam pellentesque urna id neque mollis fringilla."
+        },
+        {
+            "id_usuario": 2,
+            "foto_perfil": "https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Letícia Gomes Goncalves",
+            "username": "Josiedesu",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 3,
+            "foto_perfil": "https://images.pexels.com/photos/914922/pexels-photo-914922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Julian Sousa Azevedo",
+            "username": "Raujosie",
+            "seguindo": true,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 4,
+            "foto_perfil": "https://images.pexels.com/photos/3894557/pexels-photo-3894557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Isabelle Pereira Goncalves",
+            "username": "HollieJosie",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 5,
+            "foto_perfil": "https://images.pexels.com/photos/4441997/pexels-photo-4441997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Larissa Barbosa Cardoso",
+            "username": "TheDaffyVengeful",
+            "seguindo": true,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 6,
+            "foto_perfil": "https://images.pexels.com/photos/894156/pexels-photo-894156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Martim Ribeiro Castro",
+            "username": "Vengefulroe",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 7,
+            "foto_perfil": "https://images.pexels.com/photos/3778203/pexels-photo-3778203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Melissa Pereira Almeida",
+            "username": "Josiekun",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 8,
+            "foto_perfil": "https://images.pexels.com/photos/3817672/pexels-photo-3817672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Nicolash Rocha Pereira",
+            "username": "Josielau",
+            "seguindo": true,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 9,
+            "foto_perfil": "https://images.pexels.com/photos/4483089/pexels-photo-4483089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Sofia Melo Rocha",
+            "username": "RascalSqueak",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 10,
+            "foto_perfil": "https://images.pexels.com/photos/9736722/pexels-photo-9736722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Carlos Ferreira Castro",
+            "username": "Squeakun",
+            "seguindo": true,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 11,
+            "foto_perfil": "https://images.pexels.com/photos/40186/dance-ballet-powder-girl-40186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Guilherme Melo Barros",
+            "username": "A8n4kSqu4l",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 12,
+            "foto_perfil": "https://images.pexels.com/photos/3949689/pexels-photo-3949689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Vinicius Dias Correia",
+            "username": "Plusqueak",
+            "seguindo": true,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 13,
+            "foto_perfil": "https://images.pexels.com/photos/1701197/pexels-photo-1701197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Kauã Pinto Oliveira",
+            "username": "TheUltraAbnormal",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 14,
+            "foto_perfil": "https://images.pexels.com/photos/4471894/pexels-photo-4471894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Rafaela Correia Melo",
+            "username": "rinha159",
+            "seguindo": true,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        }
+    ]
+}
