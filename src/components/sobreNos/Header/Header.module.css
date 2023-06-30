@@ -1,0 +1,127 @@
+nav div{
+    background-color: transparent;
+}
+.header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6vh;
+    height: 10vh;
+    position: absolute;
+    left: 10%;
+    top: 1vh;
+    z-index: 2;
+}
+.conteudo{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    padding: 0.5%;
+    gap: 10%;
+}
+.logotipo svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 7vh;
+}
+.logo{
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-family: nasa;
+    font-size: 3.5vh;
+    background: rgb(240,96,36);
+    background: radial-gradient(circle, rgba(240,96,36,1) 0%, rgba(248,187,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+    
+}
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.itens{
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 2vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    transition: 200ms all;
+}
+.itens:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+    cursor: pointer;
+}
+.btnlogin{
+    font-size: 2.2vh;
+    font-weight: 500;
+    color: #F16125;
+    border-radius: 2.5vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3vh solid #F16125;
+    text-transform: uppercase;
+    transition: 200ms all;
+    width: 140%;
+}
+.btnlogin:hover{
+    background-color: #F16125;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media only screen and (max-width:480px) {
+    .header{
+        flex-direction: row;
+        height: auto;
+    }
+    
+    .conteudo{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        .header{
+            flex-direction: row;
+            height: auto;
+        }
+        
+        .conteudo{
+            display: none;
+        }
+       
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        
+        .conteudo{
+            width: 200%;
+        }
+        .btnlogin{
+            width: 200%;
+        }
+       
+}
+}

@@ -1,0 +1,42 @@
+
+.container{
+    height: auto;
+    width: 100%;
+}
+.titulo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+    font-size: 5vh;
+    color:#064550;
+}
+.texto{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3vh;
+    color: #757575;
+    text-align: left;
+    padding-bottom: 5%;
+}
+@media only screen and (max-width:480px) {
+   .titulo{
+    font-size: 4vh;
+   }
+   .texto{
+    font-size: 2vh;
+   }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        
+}
+}

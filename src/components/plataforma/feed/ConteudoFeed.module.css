@@ -1,0 +1,8 @@
+.conteudo_feed {
+    width: 100%;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    position: relative;
+    background-color: #f1ecfc;
+}

@@ -1,0 +1,22 @@
+.Principal{
+    width: 99vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.termosDiv{
+    width: 48%;
+    /* background-color: antiquewhite; */
+}
+
+.titulo{
+    font-size: 5.5vh;
+    padding: 4.5vh 0 3vh 0;
+}
+
+.conteudo{
+    font-family: poppins-l;
+    font-size: 3vh;
+}

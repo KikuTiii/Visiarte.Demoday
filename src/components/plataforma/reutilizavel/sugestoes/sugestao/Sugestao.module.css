@@ -1,0 +1,25 @@
+.sugest {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 0.5rem;
+    padding: 0.3rem 0.2rem;
+    cursor: pointer;
+}
+
+.sugest:hover {
+    background-color: #f06024;
+    color: #fff;
+}
+
+.sugest img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.sugest span {
+    font-size: 15px;
+    /* width: ; */
+}

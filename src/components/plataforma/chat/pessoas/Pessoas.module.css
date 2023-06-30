@@ -1,0 +1,23 @@
+.containerPessoas {
+    width: 35%;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.logado {
+    width: 100%;
+    background-color: #70dbe5;
+    color: #555555;
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.pessoas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

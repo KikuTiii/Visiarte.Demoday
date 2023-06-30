@@ -1,0 +1,31 @@
+.opcao {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.opcao:hover {
+    border: 1px solid #14101f;
+}
+
+.op {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    color: #f06024;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.op img {
+    width: 20px;
+    height: 25px;
+}

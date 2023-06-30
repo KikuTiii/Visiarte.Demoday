@@ -1,0 +1,29 @@
+.fundoNot {
+    position: fixed;
+    right: 0;
+    width: 27.5vw;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    top: 10vh;
+    border-left: 0.25px solid rgba(129, 128, 128, 0.693);
+    z-index: 5;
+}
+
+.divH1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+}
+
+.divH1 h1 {
+    font-size: 1.5rem;
+    color: #174056;
+}
+
+.divInteracao {
+    width: 100%;
+    height: 88%;
+    overflow: auto;
+}

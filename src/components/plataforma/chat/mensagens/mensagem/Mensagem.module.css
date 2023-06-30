@@ -1,0 +1,33 @@
+.mensagem {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+}
+
+.mensagem img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.mensagem p {
+    padding: 0.5rem;
+    max-width: 70%;
+    border-radius: 10px;
+    color: #555;
+}
+
+.direita {
+    flex-direction: row-reverse;
+}
+
+.direita p {
+    background: #8deabb;
+    border: 1px solid #8deabb;
+}
+
+.esquerda p {
+    background: #79defa;
+    border: 1px solid rgba(76, 211, 249, 0.5);
+}

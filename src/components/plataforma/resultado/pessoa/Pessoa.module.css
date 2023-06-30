@@ -1,0 +1,76 @@
+.pessoa {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.containerEsquerda {
+    width: 55%;
+}
+
+.esquerda {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding-right: 0.5rem;
+}
+
+.esquerda h6 {
+    font-size: 1rem;
+}
+
+.esquerda span {
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.pessoa img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pessoa:hover {
+    background-color: #70dbe5;
+}
+
+.direita {
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.direita button {
+    border-radius: 10px;
+    padding: 0.2rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.seguir {
+    background-color: #f06024;
+    max-width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.seguir img {
+    width: 20px;
+    height: 100%;
+}
+
+.enviarMensagem button {
+    background-color: #174056;
+}

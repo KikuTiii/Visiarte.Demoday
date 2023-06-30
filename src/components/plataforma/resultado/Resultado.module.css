@@ -1,0 +1,55 @@
+.containerResultados {
+    display: flex;
+    width: 100%;
+    padding: 2rem 5rem;
+    flex-direction: column;
+    background-color: #f1ecfc;
+    /* height: 100vh; */
+    gap: 2rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.resultados > span {
+    color: #555;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.resultados > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resultados > div > h5 {
+    font-size: 1rem;
+    color: #555;
+}
+
+.resultadoPessoas {
+    width: 50vw;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resultadoPostagens {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

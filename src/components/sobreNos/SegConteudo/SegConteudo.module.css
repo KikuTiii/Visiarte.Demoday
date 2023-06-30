@@ -1,0 +1,55 @@
+.container{
+    height: auto;
+    width: 100%;
+    background-color:#F16125 ;
+}
+
+.titulo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+    font-size: 5vh;
+    color: #fff;
+}
+.conteudo{
+    display: flex;
+    height: 25vh;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    border-radius: 1vh;
+    height: 10vh;
+    align-items: center;
+    font-size: 3vh;
+    background-color: #fff;
+}
+.lista{
+    background-color: #fff;
+    margin-top: 2vh;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5vh;
+    position: absolute;
+    width: 80%;
+    
+}
+.itemVariants{
+    
+}
+.titLista{
+    font-size: 2.5vh;
+}
+.contLista{
+    font-size: 2vh;
+}

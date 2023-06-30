@@ -1,0 +1,83 @@
+.postagem {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 45vw;
+}
+
+.perfil {
+    display: flex;
+    margin: 0 auto;
+    width: 99%;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 0;
+    color: #f06024;
+    padding: 15px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.descricao {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a1a1a;
+}
+
+.foto_postagem {
+    width: 100%;
+    max-height: 400px;
+    height: 400px;
+}
+
+.interagir {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.curtir {
+    width: 35px;
+    height: 35px;
+}
+
+.comentar {
+    width: 30px;
+    height: 35px;
+    margin-top: -5px;
+}
+
+.digitar_comentario {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digitar_comentario input {
+    color: #555;
+    width: 80%;
+}
+
+.digitar_comentario button {
+    font-weight: 700;
+    font-size: 15px;
+    color: #2c67f2;
+    cursor: pointer;
+    background-color: transparent;
+}
